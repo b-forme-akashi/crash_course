@@ -27,17 +27,19 @@ h3 {
 }
 
 img { 
-    border-radius: 50px;
+    border-radius: 50%;
     border: 5px;
     margin-bottom: 1rem;
 }
 
 .male {
+    border-style: solid;
     border-color: steelblue;
     background-color: steelblue;
 }
 
 .female {
+    border-style: solid;
     border-color: pink;
     background-color: pink;
     color: #333;
