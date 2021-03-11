@@ -1,5 +1,9 @@
 <template>
-
+    <div> <!-- 囲まないとエラーでる -->
+        <div :key="task.id" v-for="task in tasks">
+            <h3>{{ task.text }}</h3>
+        </div>
+    </div>
 </template>
 
 <script>
